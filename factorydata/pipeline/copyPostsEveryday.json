@@ -89,13 +89,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "source_Parquet",
+						"referenceName": "sourceParquet",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "sink_Parquet",
+						"referenceName": "sinkParquet",
 						"type": "DatasetReference"
 					}
 				]

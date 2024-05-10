@@ -1,5 +1,5 @@
 {
-	"name": "source_Parquet",
+	"name": "sourceParquet",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "WeCloudBlobStorage",
@@ -15,7 +15,8 @@
 				"type": "AzureBlobStorageLocation",
 				"folderPath": "Posts_today",
 				"container": "de-project-st"
-			}
+			},
+			"compressionCodec": "snappy"
 		},
 		"schema": [
 			{

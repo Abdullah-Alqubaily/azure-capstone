@@ -1,5 +1,5 @@
 {
-	"name": "sink_Parquet",
+	"name": "sinkParquet",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
