@@ -241,6 +241,9 @@
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
+				"folder": {
+					"name": "capstone"
+				},
 				"annotations": []
 			},
 			"dependsOn": [
@@ -295,6 +298,9 @@
 				],
 				"policy": {
 					"elapsedTimeMetric": {}
+				},
+				"folder": {
+					"name": "capstone"
 				},
 				"annotations": []
 			},
