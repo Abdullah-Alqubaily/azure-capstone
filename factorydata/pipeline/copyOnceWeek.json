@@ -128,7 +128,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText1",
+						"referenceName": "postTypes",
 						"type": "DatasetReference"
 					}
 				]
@@ -186,7 +186,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText2",
+						"referenceName": "users",
 						"type": "DatasetReference"
 					}
 				]

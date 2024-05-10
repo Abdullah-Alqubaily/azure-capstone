@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText2",
+	"name": "users",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
