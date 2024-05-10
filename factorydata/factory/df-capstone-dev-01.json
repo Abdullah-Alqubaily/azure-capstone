@@ -1,0 +1,9 @@
+{
+	"name": "df-capstone-dev-01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "56f9c63e-7d45-4fcc-87bd-fdb59b9b04d0",
+		"tenantId": "a883b9da-a3bd-4336-b874-90ba8e1624c0"
+	}
+}
