@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'PostgreSql1'"
 		},
+		"WeCloudBlobStorage_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'WeCloudBlobStorage'"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://sdasecondcapstone.dfs.core.windows.net/"
@@ -63,6 +67,9 @@
 					},
 					"PostgreSql1_password": {
 						"value": "[parameters('PostgreSql1_password')]"
+					},
+					"WeCloudBlobStorage_connectionString": {
+						"value": "[parameters('WeCloudBlobStorage_connectionString')]"
 					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
