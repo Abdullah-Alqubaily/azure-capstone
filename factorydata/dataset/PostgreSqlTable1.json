@@ -5,6 +5,9 @@
 			"referenceName": "PostgreSql1",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "onceWeekDataset"
+		},
 		"annotations": [],
 		"type": "PostgreSqlV2Table",
 		"schema": [],

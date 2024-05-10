@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "DelimitedText2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -13,8 +13,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "postTypesTable.csv",
-				"folderPath": "postTypes",
+				"fileName": "usersTable.csv",
+				"folderPath": "Users",
 				"fileSystem": "bd-project"
 			},
 			"columnDelimiter": ",",
