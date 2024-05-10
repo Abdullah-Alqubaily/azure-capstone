@@ -1,5 +1,5 @@
 {
-	"name": "usersBinary",
+	"name": "postsBinary",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -13,7 +13,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "Users",
+				"folderPath": "Posts",
 				"fileSystem": "bd-project"
 			}
 		}

@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "Binary1",
+						"referenceName": "postTypesBinary",
 						"type": "DatasetReference"
 					},
 					"logStorageSettings": {
@@ -56,7 +56,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "Binary2",
+						"referenceName": "usersBinary",
 						"type": "DatasetReference"
 					},
 					"logStorageSettings": {
