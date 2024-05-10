@@ -200,7 +200,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/sink_Parquet')]",
+			"name": "[concat(parameters('factoryName'), '/sinkParquet')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -228,7 +228,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/source_Parquet')]",
+			"name": "[concat(parameters('factoryName'), '/sourceParquet')]",
 			"type": "Microsoft.DataFactory/factories/datasets",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -695,14 +695,14 @@
 						},
 						"inputs": [
 							{
-								"referenceName": "source_Parquet",
+								"referenceName": "sourceParquet",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
 						],
 						"outputs": [
 							{
-								"referenceName": "sink_Parquet",
+								"referenceName": "sinkParquet",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
@@ -719,8 +719,8 @@
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/postsBinary')]",
-				"[concat(variables('factoryId'), '/datasets/source_Parquet')]",
-				"[concat(variables('factoryId'), '/datasets/sink_Parquet')]",
+				"[concat(variables('factoryId'), '/datasets/sourceParquet')]",
+				"[concat(variables('factoryId'), '/datasets/sinkParquet')]",
 				"[concat(variables('factoryId'), '/linkedServices/AzureDataLakeStorage1')]"
 			]
 		}
