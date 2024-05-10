@@ -1,5 +1,5 @@
 {
-	"name": "postTypes",
+	"name": "postTypesCSV",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",

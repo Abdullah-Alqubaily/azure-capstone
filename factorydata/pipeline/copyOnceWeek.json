@@ -128,7 +128,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "postTypes",
+						"referenceName": "postTypesCSV",
 						"type": "DatasetReference"
 					}
 				]
@@ -186,7 +186,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "users",
+						"referenceName": "usersCSV",
 						"type": "DatasetReference"
 					}
 				]

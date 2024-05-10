@@ -1,26 +1,22 @@
 {
-	"name": "usersCSV",
+	"name": "sink_Parquet",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
-			"name": "onceWeekDataset"
+			"name": "everydayDataset"
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "Parquet",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "usersTable.csv",
-				"folderPath": "Users",
+				"folderPath": "Posts",
 				"fileSystem": "bd-project"
 			},
-			"columnDelimiter": ",",
-			"escapeChar": "\\",
-			"firstRowAsHeader": true,
-			"quoteChar": "\""
+			"compressionCodec": "snappy"
 		},
 		"schema": []
 	}
